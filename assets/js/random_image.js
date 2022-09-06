@@ -1,0 +1,1 @@
+window.onload=displayImage;var imagesArray=["anime1.jpg","anime2.jpg","anime3.gif","anime4.gif","anime5.gif","anime7.png","anime8.gif","anime9.jpg","anime10.webp"];function displayImage(){var num=Math.floor(Math.random()*(imagesArray.length));document.getElementById("main_image1").src="assets/img/animes/"+imagesArray[num];}
